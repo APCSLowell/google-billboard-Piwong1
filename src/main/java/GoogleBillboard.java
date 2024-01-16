@@ -19,11 +19,12 @@ if(isPrime(dNum)==true&&found==false){
 
 	//Finish this function
 	public boolean isPrime(){
-	}
+	
 	for(int i=2;i<=Math.sqrt(dNum);i++){
     if(dNum%i==0){
       return false;
     }
+	return true;
     }
-    return true; 
+	}
 }
