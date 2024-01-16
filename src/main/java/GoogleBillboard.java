@@ -24,7 +24,7 @@ if(isPrime(dNum)==true&&found==false){
     if(dNum%i==0){
       return false;
     }
-	return true;
-    }
+	}
+	return true;	
 	}
 }
