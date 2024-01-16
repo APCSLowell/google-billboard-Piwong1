@@ -4,7 +4,7 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 		System.out.println("Not the right string, tests will fail!");
 	}
-	public void setup{
+	public void setup(){
 			//your code here
    boolean found=false;
     for(int i=2;i<e.length()-10;i++){
