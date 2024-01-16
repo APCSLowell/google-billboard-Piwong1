@@ -20,7 +20,7 @@ if(isPrime(dNum)==true&&found==false){
 
 
 	//Finish this function
-	public boolean isPrime(){
+	public boolean isPrime(double dNum){
 	
 	for(int i=2;i<=Math.sqrt(dNum);i++){
     if(dNum%i==0){
